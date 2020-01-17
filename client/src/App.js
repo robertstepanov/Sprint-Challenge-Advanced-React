@@ -1,14 +1,15 @@
 import React from "react";
-
+import Navbar from "./Components/Navbar";
 import "./App.css";
 import PlayerList from "./Components/PlayerList";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <PlayerList />
-      </header>
+      <Navbar />
+     
+        <PlayerList className="App-header" />
+      
     </div>
   );
 }
