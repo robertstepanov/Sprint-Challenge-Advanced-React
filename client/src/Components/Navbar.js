@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <h1>Women's World Cup - Players List</h1>
+      <h1 className="title">Women's World Cup - Players List</h1>
       <div className="dark-mode__toggle">
         <div
           onClick={toggleMode}

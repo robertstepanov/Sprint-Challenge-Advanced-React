@@ -43,10 +43,40 @@
   background-color: #313843;
 }
 
+.dark-mode li {
+  background: #fff;
+  color: #313843;
+}
+
 .navbar {
-  background-color: #1F2022;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   border: none;
   
+}
+
+h1 {
+  margin-left: 25rem;
+  font-size: 2rem;
+}
+
+ul {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+li {
+  display: flex;
+  line-height: 2rem;
+  flex-direction: column;
+  background: #313843;
+  color: #fff;
+  padding: 2rem 3rem;
+  margin: 2rem 2rem;
+  list-style: none;
 }
 
 

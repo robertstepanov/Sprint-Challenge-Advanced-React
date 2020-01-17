@@ -19,7 +19,7 @@ export default class PlayerList extends Component {
       <ul>
         {this.state.players.map(player => (
           <li>
-            {player.name} {player.country} {player.searches}
+            Player: {player.name}<br /> Country: {player.country}<br /> Searches: {player.searches}
           </li>
         ))}
       </ul>
